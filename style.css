@@ -1,3 +1,212 @@
+
+body {
+    background-repeat:no-repeat;
+    background-position:top left;
+    background-attachment:fixed;
+ 
+}
+.hero-header {
+    background-color: rgb(158, 13, 13);
+    margin: 0;
+    padding:20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.hero-header p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* color: rgb(255, 255, 255); */
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.hero-container {
+    background: url(/media/streetfighter-wallpaper.jpg);
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+
+}
+.hero-container h1 { 
+    line-height: 650px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+p {
+    font-family:Georgia, serif;
+    font-size:14px;
+    font-style:normal;
+    font-weight:normal;
+    color:#000000;
+    background-color:#ffffff;
+}
+.container button {
+    margin: 30px 0px;
+    width: 300px;
+}
+.container {
+    margin: 100px 0;
+}
+.container .row {
+    padding: 50px;
+    justify-content: center;
+}
+.box-style-v1 {
+    -webkit-box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.85); 
+    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.85);
+
+}
+.box-style-v2 {
+    -webkit-box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 10px #FF0000, 5px 5px 10px -5px rgba(0,0,0,0); 
+    box-shadow: 0px 20px 0px -10px #FFFFFF, 0px -20px 0px -10px #FFFFFF, 20px 0px 0px -10px #FFFFFF, -20px 0px 0px -10px #FFFFFF, 0px 0px 0px 50px #FF0000, 5px 5px 10px -5px rgba(0,0,0,0);
+}
+
+.btn-stl-1 {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.btn-stl-1:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.btn-stl-1:active {
+	position:relative;
+	top:1px;
+}
+.btn-stl-2a {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-size:20px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.btn-stl-2a:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.btn-stl-2a:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-stl-2 {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.btn-stl-2:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.btn-stl-2:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-stl-3 {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn-stl-3:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn-stl-3:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-stl-4 {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.btn-stl-4:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.btn-stl-4:active {
+	position:relative;
+	top:1px;
+}
+
+
+.btn-stl-5 {
+	box-shadow:inset 0px 1px 0px 0px #a6827e;
+	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:6px 24px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+}
+.btn-stl-5:hover {
+	background:linear-gradient(to bottom, #634b30 5%, #7d5d3b 100%);
+	background-color:#634b30;
+}
+.btn-stl-5:active {
+	position:relative;
+	top:1px;
+}
+
 .bigX{
     text-align: center;
     font-size: 24px;
